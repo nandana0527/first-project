@@ -5,7 +5,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-family: Montserrat;
     box-sizing: border-box;
 
 
@@ -35,13 +35,15 @@
     align-items: center;
     gap: 35px;
 } 
+.line-height{
+    line-height: 10px;
+}
 
 .btn-a {
     background-color: transparent;
     color: #96BB7C;
     font-weight: 700;
     font-size: 14px;
-    line-height: 22px;
     border: none;
 }
 
@@ -49,12 +51,10 @@
     background-color: #96BB7C;
     font-weight: 700;
     font-size: 14px;
-    line-height: 22px;
     color: white;
     border: none;
     border-radius: 5px 5px 5px 5px;
     padding: 5px 5px 5px 5px;
-    gap: 15px;
     width: 137px;
     height: 52px;
 }
@@ -81,16 +81,12 @@
     color: #252B42;
     padding: 25px 0;
     line-height: 34px;
-    width: 141px;
-    height: 32px;
-    top: 13px;
+    
 }
 
 .nav-button {
     display: flex;
     gap: 45px;
-    width: 300px;
-    height: 52px;
     padding-top: 10px;
 }
 
@@ -110,10 +106,8 @@
     max-width: 50%;
     margin: auto;
 }
-.items{
-    width: 174px;
-    height: 24px;
-}
+
+
  .left .dental{
     color: #96BB7C;
     font-weight: 700;
@@ -129,20 +123,23 @@
     color: #252B42;
 }
 .left .goal{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     color: #737373;
-    width: 458px;
-    height: 60px;
+    margin-top: 30px;
     
+}
+.home-button{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
 }
 .home-button1{
     width: 193px;
     height: 52px;
     border-radius: 5px;
     padding: 15px 10px;
-    gap: 10px;
     background-color: #96BB7C;
     font-weight: 700;
     font-size: 14px;
@@ -272,7 +269,6 @@
     max-width: 100%;
     font-weight: 500;
     font-size: 14px;
-    line-height: 20px;
     color: #737373;
 
 }
@@ -319,7 +315,7 @@
     max-width: 100%;
     margin: auto;
     padding: 35px 40px;
-    gap: 20px;
+    /* gap: 20px; */
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     margin-top: 10px;
 }
@@ -563,7 +559,6 @@
 .about-client{
     max-width: 100%;
     margin: auto;
-    /* height: 855px; */
     background-color: #DDF4FF;
     padding: 150px 0;
 }
@@ -591,8 +586,6 @@
     margin-top: 25px;
 }
 .designers{
-    /* max-width: 1045px;
-    height: 317.01px; */
     max-width: 100%;
     gap: 10px;
     display: flex;
@@ -600,8 +593,6 @@
     margin-top: 100px;
 }
 .designer1{
-    
-    /* height: auto; */
     background-color: #FFFFFF;
     padding: 25px;
     align-items: center;
@@ -679,9 +670,6 @@
     gap: 30px;
 }
 .logos .container{
-    /* width: 1050px; */
-    /* max-width: 100%;
-    margin: auto; */
     left: 195px;
     padding: 80px 0;
 }
@@ -690,12 +678,11 @@
     font-size: 70px;
     display: flex;
     justify-content: space-around;
-    /* gap: 39px; */ 
 }
 .subscribe{
     max-width: 100%;
     margin: auto;
-    background-color: #FAFAFA;
+    background-color: #FFFFFF;
 
 }
 .subscribe .container{
@@ -727,15 +714,19 @@
     font-size: 35px;
     color: #252B42;
     margin-top: 10px;
-}.more-courses{
+}
+.news-title .edu-text{
+    text-align: center;
+}
+.more-courses{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
  .subscribe .edu-text {
     text-indent: 10px;
-    max-width: 400px;
-    text-align: end;
+    /* max-width: 400px; */
+    text-align: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
@@ -744,12 +735,6 @@
 
 }
 .mail{
-    /* width: 688px;
-    height: 58px;
-    border-radius: 5px;
-    border: 1px;
-    color: #F9F9F9;
-    border-color: #E6E6E6; */
     padding: 10px;
     margin-top: 20px;
     
@@ -772,8 +757,6 @@
 }
 .mail button{
     color: #FFFFFF;
-    /* width: 117px;
-    height: 58px; */
     border: 1px;
     background-color: #96BB7C;
     border-radius: 0px ;
@@ -852,6 +835,9 @@
 .sub-footer{
     max-width: 100%;
     background-color: #FAFAFA;
+}
+.made-with{
+    color: #737373;
 }
 .sub-footer .container{
     padding: 25px 0;
